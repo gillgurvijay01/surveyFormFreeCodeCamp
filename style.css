@@ -1,0 +1,98 @@
+/* Root declartion of HTML colors */
+:root{
+    --color1: #d5ecd4;
+    --color2: #c3dac3;
+    --color3: #a1b0ab;
+    --color4: #929487;
+    --color5: #6b6054;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color1);
+}
+
+main{
+    position: relative;
+    top: 50px;
+    width: 650px;
+    color: var(--color5);
+}
+
+#description{
+    text-align: center;
+}
+
+
+section{
+    background-color: #a1b0ab;
+    height: auto;
+    width: inherit;
+    position: absolute;
+    top: 205px;
+}
+
+form{
+    justify-content: center;
+    padding: 10px;
+}
+
+form>input,form>select{
+    width: 100%;
+    background: inherit;
+    border: none;
+    border-bottom: 1px solid;
+
+}
+
+input:focus,form>select{
+   outline:none;
+    border-bottom: 1px solid;
+    height: 1.2em;
+}
+
+form>label{
+    font-weight: bolder;
+    font-size: 1.2em;
+    color:var(--color5);
+    margin-top: inherit;
+    margin-bottom: 10px;
+}
+
+form>input, form>select{
+margin: 10px 10px 10px 0px ;
+font-size: 1.1em;
+}
+
+
+form>select{
+    color:var(--color5) ;
+}
+
+select>option{
+    background: var(--color1);
+    color: var(--color5);
+}
+
+label#radio{
+    font-size: 20px;
+}
+
+.radio{
+    font-size: 20px;
+}
+
+button{
+    background: var(--color5);
+    color: var(--color1);
+    font-size: 25px;
+    height: 40px;
+    width: 100%;
+}
+
+textarea{
+    resize: vertical;
+}

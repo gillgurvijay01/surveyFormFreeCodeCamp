@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurveyFrom | Project | freeCodeCamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="full-main">
+        <h1 id="title"> &lt; freeCodeCamp Survey Form &gt; </h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <section>
+            <form action="" id="survey-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name-label" name="name" placeholder="Enter your name here">
+                <label for="email">Email:</label>
+                <input type="email" id="email-label" name="email" placeholder="Enter your email here">
+                <label for="age">Age:</label>
+                <input type="number" id="number-label" name="age" min="16" max="99" placeholder="Enter your Age here">
+                <label for="role">What is your current role?</label>
+                <br>
+                <select name="role" id="dropdown">
+                    <option value="1">School Student</option>
+                    <option value="2">Bachelor's Student</option>
+                    <option value="3">Master's Students</option>
+                    <option value="4">Working IT Employee</option>
+                    <option value="5">Unemployeed</option>
+                    <option value="6">Parent of Student</option>
+                    <option value="7">Teacher</option>
+                </select>
+                <label>Have you recommended this course to other people?</label><br>
+                <label for="yes" class="radio"><input type="radio"  name="recommend" value="yes" checked>Yes </label>
+                <label for="no" class="radio"><input type="radio"  name="recommend" value="no">No </label>
+                <label for="willbe" class="radio"><input type="radio"  name="recommend" value="willbe">Will be recommending </label>
+                <br>
+                <br>
+                <label for="check">What you loved the most during the course?</label><br>
+                <label><input type="checkbox" name="check" id="check" value="html">HTML</label><br>
+                <label><input type="checkbox" name="check" id="check" value="css">CSS</label><br>
+                <label><input type="checkbox" name="check" id="check" value="js">Javascript</label><br>
+                <label><input type="checkbox" name="check" id="check" value="felib">Front-End Libraries</label><br>
+                <label><input type="checkbox" name="check" id="check" value="projects">Hands-On Project</label><br>
+                <label><input type="checkbox" name="check" id="check" value="livecoding">Live-Coding</label><br>
+                <br><br>
+                <label for="comment">Any Comments and Suggestions?</label>
+                <br>
+                <textarea name="comment" id="comment" cols="87" rows="10" ></textarea>
+                <button type="submit">Submit</button>                            
+                
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
